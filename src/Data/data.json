@@ -1,0 +1,44 @@
+{
+  "movies": [
+    {
+      "id": 2,
+      "name": "Tiger returns",
+      "genre": "Action",
+      "actor": "Salman Khan",
+      "rating": 4,
+      "released": 2020
+    },
+    {
+      "id": 3,
+      "name": "Hera Pheri",
+      "genre": "Comedy",
+      "actor": "Akshay Kumar",
+      "rating": 5,
+      "released": 2002
+    },
+    {
+      "id": 4,
+      "name": "Krrish",
+      "genre": "Sci-fi",
+      "actor": "Hrithik Roshan",
+      "rating": 4.6,
+      "released": 2005
+    },
+    {
+      "id": 5,
+      "name": "Karwaan",
+      "genre": "Drama",
+      "actor": "Irfan Khan",
+      "rating": 4.7,
+      "released": 2018
+    },
+    {
+      "name": "Batman",
+      "genre": "Action",
+      "actor": "Christian Bale",
+      "released": "2007",
+      "rating": "4.6",
+      "id": 6
+    }
+  ]
+}

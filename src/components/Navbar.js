@@ -12,7 +12,7 @@ export default function Navbar(){
           backgroundColor: '#e65014',
           borderRadius: '8px' 
         }}>Add Movie</Link>
-        <Link to='/notfound'>404</Link>
+        {/* <Link to='/notfound'>404</Link> */}
             </div>
         </nav>
     )

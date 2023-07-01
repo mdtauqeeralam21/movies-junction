@@ -18,8 +18,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/add' element={<AddMovie />} />
         <Route path='/movies/:id' element={<MovieDetails/>}/>
-        <Route path='/update' element={<UpdateMovie />} />
-        <Route path='/notfound' element={<PageNotFound />} />
+        <Route path='/update/:id' element={<UpdateMovie />} />
         <Route path='*' element={<PageNotFound/>}/>
         </Routes>
         

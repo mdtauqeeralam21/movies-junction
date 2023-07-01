@@ -9,7 +9,7 @@ function MovieDetails(){
     const navigate= useNavigate();
 
     const handleDelete = () => {
-      fetch('http://localhost:9999/movies/' + movie.id, {
+      fetch('http://localhost:9999/movies/' + id, {
         method: 'DELETE'
       }).then(() => {
         navigate("/");
@@ -31,7 +31,7 @@ function MovieDetails(){
             <button className="bg-red-500 mt-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
             onClick={handleDelete}>Delete</button>
 
-            <Link to="/update">Update</Link>
+            <Link to={`/update/${movie.id}`}> Update</Link>
             
           </article>
           

@@ -39,6 +39,30 @@
       "released": "2007",
       "rating": "4.6",
       "id": 6
+    },
+    {
+      "name": "Dhoom-3",
+      "genre": "Action",
+      "actor": "Amir Khan",
+      "released": "2014",
+      "rating": "4",
+      "id": 7
+    },
+    {
+      "name": "Sholay",
+      "genre": "Drama",
+      "actor": "Amitabh Bachchan",
+      "released": "1983",
+      "rating": "5",
+      "id": 8
+    },
+    {
+      "name": "3 idiots",
+      "genre": "Comedy",
+      "actor": "Amir Khan",
+      "released": "2009",
+      "rating": "4.9",
+      "id": 9
     }
   ]
 }

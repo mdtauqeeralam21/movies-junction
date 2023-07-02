@@ -17,23 +17,23 @@ function MovieDetails(){
     }
   
     return (
-      <div className="flex flex-col justify-center items-center">
+      <div className="card1">
         { isPending && <div>Loading...</div> }
         { error && <div>{ error }</div> }
         { movie && (
-          <article>
-            <h1 className="font-bold text-xl mb-2">{ movie.name }</h1>
-            <div className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+          <div className="card2">
+            <h1 className="mName">{ movie.name }</h1>
+            <div className="vgenre">
               { movie.genre }</div>
-            <h3>by: { movie.actor }</h3>
-            <p>Relesed year:{movie.released}</p>
-            <h3>Rating: {movie.rating}</h3>
-            <button className="bg-red-500 mt-3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+            <div className="vactor">by: { movie.actor }</div>
+            <div className="vreleased">Relesed year:{movie.released}</div>
+            <div className="vrating">Rating: {movie.rating}</div>
+            <button className="card-button"
             onClick={handleDelete}>Delete</button>
 
-            <Link to={`/update/${movie.id}`}> Update</Link>
+            <Link to={`/update/${movie.id}`} className="card-button"> Update</Link>
             
-          </article>
+          </div>
           
         )}
 

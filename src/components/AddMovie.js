@@ -25,7 +25,7 @@ export default function AddMovie(){
 
 
     return(
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center bg-gradient-to-r from-orange-400 via-red-500 to-pink-500">
             <h1 className="heading">Add a movie</h1>
             <div className="formDiv">
             <form onSubmit={handleSubmit}>
